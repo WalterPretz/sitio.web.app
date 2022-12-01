@@ -4,10 +4,10 @@ body{
 }
 
 nav{
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0.4);
     font-family: 'Manrope', sans-serif;
 }
-#inicio, #acerca, #proyectos, #contacto{
+#inicio, #acerca, #proyectos, #contacto, #sitio1, #sitio2{
     color: #ffffff;
 }
 
@@ -21,8 +21,104 @@ a.nav-link:hover{
     font-size: 1.12rem;;
 }
 
+.pagina_completa{
+    width: 100%;
+    height: 100vh;
+}
+
+#inicio_page{
+    padding: 5rem 3rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nombre{
+    font-size: 5rem;
+}
+
+.nombre2{
+    font-size: 3rem;
+}
+
+.portafolio{
+    padding: 3rem;
+    align-self: center;
+}
+
+.experiencia{
+    background-color: white;
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    border: 5px solid #8080804d;
+    transition: all 0.5s ease-in;
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: rgb(34, 32, 51);
+}
+
+
+.experiencia-titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.barrita{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.proyectos_re img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+.proyecto-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto{
+    position: relative
+    ;
+}
+
 @media screen and (max-width: 767px) {
     .navbar-brand{
         display: none;
+    }
+    #inicio, #acerca, #proyectos, #contacto, #sitio1, #sitio2{
+        text-align: center;
     }
 }

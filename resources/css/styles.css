@@ -81,39 +81,6 @@ a.nav-link:hover{
     margin: 10px 0;
 }
 
-.proyectos_re img{
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    display: block;
-}
-
-.proyecto-contenedor{
-    padding-top: 60px;
-    margin-bottom: 40px;
-}
-
-.overlay{
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.overlay p{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.proyecto{
-    position: relative
-    ;
-}
-
 @media screen and (max-width: 767px) {
     .navbar-brand{
         display: none;
@@ -122,3 +89,74 @@ a.nav-link:hover{
         text-align: center;
     }
 }
+
+
+/*Proyectos*/
+.seccion-titulo {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.overlay {
+    /*Hacemos transparente el elemento*/
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    color: #0a0a23;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+/*Debe de tener position relativa para que el overlay se posicione sobre el*/
+.proyecto {
+    margin-top: 10px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*Cambiamos la opacidad de la imagen cuando se pasa el cursor*/
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+/*Estilo a los iconos del proyecto*/
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    font-size: 45px;
+    margin: 10px;
+}
+
+/*Fin Proyectos*/

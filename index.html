@@ -28,10 +28,10 @@
                     <div class="navbar-nav">
                         <a class="nav-link" href="https://mobile.twitter.com/pretz26" id="sitio1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                         <a class="nav-link" href="https://github.com/WalterPretz" id="sitio2" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a class="nav-link" id="inicio" href="#inicio">Inicio</a>
-                        <a class="nav-link" id="acerca" href="#">Acerca de</a>
-                        <a class="nav-link" id="proyectos" href="#">Proyectos</a>
-                        <a class="nav-link" id="contacto" href="#">Contacto</a>
+                        <a class="nav-link" href="#inicio_page">Inicio</a>
+                        <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -52,13 +52,22 @@
                 </div> 
             </div>
         </section>
-        <section class="">
+        <!--Acerca de (About)-->
+        <section id="sobre-mi">
+            <div class="sobre-mi">
+                <h2 class="seccion-titulo blanco">Conoce a Walter</h2>
+                <p class="seccion-texto">Ingeniero en Sistema de Información y Ciencias de la Computación.<br>
+                Me considero una persona responsable, ordenado, carismático, honesto y con deseos de superación.<br>
+                Con aspiración laboral en el ámbito del desarrollo y el campo de sistemas.</p>
+            </div>
+        </section>
+        <section>
             <div class="experiencia text-center">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 columna">
                         <i class="fa-solid fa-code"></i>
                         <p class="experiencia-titulo">Desarro web</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aliquam nisi impedit, dolore provident ipsam assumenda quisquam hic reprehenderit saepe dolorum. Quas libero perspiciatis facilis perferendis aliquid ab delectus animi!</p>
+                        <p>...</p>
                         <div class="barrita">
                             <span class="badge rounded-pill bg-primary">HTML</span>
                             <span class="badge rounded-pill bg-primary">CSS</span>
@@ -69,7 +78,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 columna">
                         <i class="fa-solid fa-screwdriver-wrench"></i>
                         <p class="experiencia-titulo">Herramientas</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aliquam nisi impedit, dolore provident ipsam assumenda quisquam hic reprehenderit saepe dolorum. Quas libero perspiciatis facilis perferendis aliquid ab delectus animi!</p>
+                        <p>...</p>
                         <div class="barrita">
                             <span class="badge rounded-pill bg-primary">SanBox</span>
                             <span class="badge rounded-pill bg-primary">Git Hub</span>
@@ -80,7 +89,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 columna">
                         <i class="fa-solid fa-book"></i>
                         <p class="experiencia-titulo">Estudios</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aliquam nisi impedit, dolore provident ipsam assumenda quisquam hic reprehenderit saepe dolorum. Quas libero perspiciatis facilis perferendis aliquid ab delectus animi!</p>
+                        <p>...</p>
                         <div class="barrita">
                             <span class="badge rounded-pill bg-primary">HTML</span>
                             <span class="badge rounded-pill bg-primary">CSS</span>
@@ -206,8 +215,69 @@
                 </a>
             </center>
         </section>
+        <!-- Contacto -->
+        <section class="contacto seccion-oscura" id="contacto">
+            <div class="container">
+            <div class="container rectangulo d-flex justify-content-evenly text-center">
+                <div class="row ">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    Hablemos
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    Contáctame para cualquier duda tecnológica
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="Contacto" class="h4 fw-bold ">Contacto</label>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Medio&nbsp;<i class="fa-solid fa-star"></i>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Gmail <i class="fa-solid fa-envelope"></i></strong> <br>
+                                    pretz23jer@gmail.com
+                                    <hr>
+                                    <strong>Twitter&nbsp;<i class="fa-brands fa-twitter"></i></strong> <br>
+                                    @Pretz26
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <a href="https://wa.me/50247162720?text=Hola,%20necesito%20contar%20con%20su%20persona!" class="float" target="_blank">
+            <i class="fa-brands fa-whatsapp my-float"></i>
+        </a>
     </main>
-    <footer></footer>
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="favicon.ico" alt="logo portafolio">
+        <p class="footer-texto text-center">Desarrollo Web <br>Walter Pretzantzín</p>
+        <div class="iconos-redes-sociales d-flex align-items-center justify-content-center">
+        <a href="https://twitter.com/Pretz26" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://github.com/WalterPretz" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com/JereyM3/" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/walterprexu/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/walter-jerem%C3%ADas-pretzantz%C3%ADn-xuruc-996099258/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        </div>
+        <div class="derechos-autor">Creado por WalterPretz (2022) &#169</div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/resources/js/script.js"></script>
 </body>
 </html>

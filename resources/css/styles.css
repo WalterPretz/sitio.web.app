@@ -89,7 +89,26 @@ a.nav-link:hover{
         text-align: center;
     }
 }
+.blanco{
+    color: white;
+}
 
+.seccion-texto{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+/*Acerda de (About)*/
+.sobre-mi {
+    height: 100px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
 
 /*Proyectos*/
 .seccion-titulo {
@@ -160,3 +179,155 @@ a.nav-link:hover{
 }
 
 /*Fin Proyectos*/
+
+/*Acerda de (About)*/
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Fin Acerda de (About)*/
+
+
+/* Contacto */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(8, 4, 63);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size:  1.2rem;
+    margin-bottom: 20px;
+}
+
+.contacto button{
+    color: rgb(0, 2, 116);
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1em 1.5em;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.contacto button i{
+    color: rgb(0, 2, 116);
+    font-size: 1.3rem;
+    transition: all 1s ease-in-out;
+}
+
+/*Efecto de cursor sobre boton contacto*/
+.contacto button:hover{
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.contacto button:hover i{
+    color: rgb(255, 255, 255);
+}
+
+.accordion-body{
+    color:#000000;
+}
+/* Fin Contacto */
+
+/*Footer*/
+.footer{
+    min-height: 500px;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+}
+
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.5s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(2, 89, 219);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-autor{
+    font-size: 20px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/*Fin Footer*/
+
+/*whatsapp*/
+.float{
+	position: fixed;
+	width:50px;
+	height:50px;
+    /*para mover en el plano*/
+	bottom:10px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:80;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:11px;
+}

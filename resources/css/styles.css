@@ -88,6 +88,16 @@ a.nav-link:hover{
     #inicio, #acerca, #proyectos, #contacto, #sitio1, #sitio2{
         text-align: center;
     }
+    .nombre{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .desarrollo_web{
+        text-align: center;
+    }
+    .espacio_conocer{
+        padding-top: 7rem;
+    }
 }
 .blanco{
     color: white;
@@ -98,6 +108,30 @@ a.nav-link:hover{
     color: white;
     text-align: center;
 }
+
+/*Seccion Hero*/
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /*border-radius: 50%;  --> rounded-circle*/
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+/*Fin Seccion Hero*/
 
 /*Acerda de (About)*/
 .sobre-mi {
@@ -202,7 +236,7 @@ a.nav-link:hover{
 }
 
 .contacto .rectangulo{
-    margin-top: -5rem;
+    margin-top: -3.5rem;
     background-color: rgb(8, 4, 63);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;

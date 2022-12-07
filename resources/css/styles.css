@@ -388,6 +388,11 @@ a.nav-link:hover{
     height: 400px;
 }
 
+.pintar-back{
+    padding: 3rem 0;
+    background-color: #e9e7e7;
+}
+
 .caja-img-back{
     height: 200px;
 }

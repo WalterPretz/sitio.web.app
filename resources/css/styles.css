@@ -196,7 +196,8 @@ a.nav-link:hover{
     border-radius: 10px;
 }
 .proyecto-reciente{
-    font-family: 'Nerko One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     font-size: 3rem;
 }
 
@@ -381,7 +382,8 @@ a.nav-link:hover{
 
 .caja-front h2{
     font-size: 3rem;
-    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .caja-img{

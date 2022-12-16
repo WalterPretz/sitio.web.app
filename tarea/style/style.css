@@ -1,0 +1,27 @@
+img{
+    height: auto;
+    width: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+th{
+    text-align: center;
+}
+tr, td{
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+.boton1{
+    justify-content: right;
+}
+
+@media screen and (max-width: 767px) {
+    tr, td{
+        font-size: 0.8rem;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
